@@ -190,17 +190,34 @@ h1 {
   margin-left: 10px;
 }
 .workcontainer {
+  font-family: 'Source Sans Pro', sans-serif;
   display: flex;
   flex-wrap: wrap;
   border: solid red 1px;
   font-size: 2rem;
   margin: 10px;
   justify-content: space-between;
-  height: 750px;
+  height: 585px;
   align-items: center;
 }
 .workcontainer .workbox {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
   width: 330px;
-  height: 350px;
+  height: 275px;
   border: solid red 1px;
+}
+.workcontainer .workbox h2 {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.workcontainer .workbox h3 {
+  font-size: 0.8em;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.workcontainer .workbox p {
+  font-size: 0.75em;
+  line-height: 25px;
 }

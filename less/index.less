@@ -123,18 +123,38 @@ h1 {
 }
 
 .workcontainer {
+	font-family: @mainfont;
 	display: flex;
 	flex-wrap: wrap;
 	border:  @bordertest;
 	font-size: 2rem;
 	margin: 10px;
 	justify-content: space-between;
-	height: 750px;
+	height: 585px;
 	align-items: center;
 
 	.workbox {
+		padding: 5px;
+		display: flex;
+		flex-direction: column;
 		width: 330px;
-		height: 350px;
+		height: 275px;
 		border: @bordertest;
+
+		h2 {
+			font-weight: bold;
+			margin-bottom: 5px;
+		}
+
+		h3 {
+			font-size: 0.80em;
+			margin-bottom: 5px;
+			font-weight: bold;
+		}
+
+		p {
+			font-size: 0.75em;
+			line-height: 25px;
+		}
 	}
 }
