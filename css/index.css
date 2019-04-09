@@ -138,7 +138,6 @@ table {
 }
 html,
 body {
-  height: 100%;
   margin: 0 auto;
   width: 700px;
   border: solid red 2px;
@@ -174,8 +173,34 @@ header .intro {
   width: 100%;
   font-size: 2.5rem;
   font-family: 'Source Sans Pro', sans-serif;
-  padding: 15px;
+  padding: 0 15px 15px 15px;
 }
 header .intro h1 {
   color: red;
+  margin-left: 0;
+}
+header .intro p {
+  margin-top: 10px;
+  font-size: 0.85em;
+  line-height: 35px;
+}
+h1 {
+  font-size: 2.5rem;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-left: 10px;
+}
+.workcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  border: solid red 1px;
+  font-size: 2rem;
+  margin: 10px;
+  justify-content: space-between;
+  height: 750px;
+  align-items: center;
+}
+.workcontainer .workbox {
+  width: 330px;
+  height: 350px;
+  border: solid red 1px;
 }
