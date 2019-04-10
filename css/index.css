@@ -287,8 +287,8 @@ h1 {
   font-size: 1.45rem;
   justify-content: space-between;
   margin: 10px 10px 20px 10px;
-  background-color: white;
   border-radius: 10px;
+  background-color: white;
 }
 @media (max-width: 500px) {
   .skillscontainer {
@@ -318,14 +318,14 @@ h1 {
   font-family: 'Source Sans Pro', sans-serif;
   margin-top: 5px;
   font-size: 1.75rem;
-  background-color: white;
   display: inline-block;
   width: 300px;
-  border-radius: 10px;
   margin-left: 10px;
   margin-bottom: 25px;
   margin-top: 10px;
   padding: 10px;
+  border-radius: 10px;
+  background-color: white;
 }
 @media (max-width: 500px) {
   .contact {
