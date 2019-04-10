@@ -100,7 +100,7 @@ header {
 		width: 100%;
 		font-size: 2.5rem;
 		font-family: @mainfont;
-		padding: 0 15px 15px 15px;
+		padding: 0 15px 15px 20px;
 
 		h1 {
 			color: red;
@@ -156,5 +156,40 @@ h1 {
 			font-size: 0.75em;
 			line-height: 25px;
 		}
+	}
+}
+
+.skillscontainer {
+	font-family: @mainfont;
+	display: flex;
+	height: 75px;
+	border: green solid 5px;
+	font-size: 1.45rem;
+	justify-content: space-between;
+	margin: 10px;
+
+	.skillsbox {
+		padding: 5px;
+		display: flex;
+		justify-content: space-evenly;
+		flex-direction: column;
+		align-items: center;
+		border: @bordertest;
+		}
+
+		.fivestars {
+			max-width: 70%;
+			max-height: 70%;
+		}
+	}
+
+.contact {
+	font-family: @mainfont;
+	margin-top: 5px;
+	font-size: 1.75rem;
+
+	p {
+		margin: 5px 0 0 15px;
+		line-height: 25px;
 	}
 }

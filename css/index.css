@@ -173,7 +173,7 @@ header .intro {
   width: 100%;
   font-size: 2.5rem;
   font-family: 'Source Sans Pro', sans-serif;
-  padding: 0 15px 15px 15px;
+  padding: 0 15px 15px 20px;
 }
 header .intro h1 {
   color: red;
@@ -219,5 +219,35 @@ h1 {
 }
 .workcontainer .workbox p {
   font-size: 0.75em;
+  line-height: 25px;
+}
+.skillscontainer {
+  font-family: 'Source Sans Pro', sans-serif;
+  display: flex;
+  height: 75px;
+  border: green solid 5px;
+  font-size: 1.45rem;
+  justify-content: space-between;
+  margin: 10px;
+}
+.skillscontainer .skillsbox {
+  padding: 5px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  border: solid red 1px;
+}
+.skillscontainer .fivestars {
+  max-width: 70%;
+  max-height: 70%;
+}
+.contact {
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-top: 5px;
+  font-size: 1.75rem;
+}
+.contact p {
+  margin: 5px 0 0 15px;
   line-height: 25px;
 }
