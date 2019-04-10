@@ -59,12 +59,20 @@ table {
 
 @mainfont: 'Source Sans Pro', sans-serif;
 @bordertest: solid red 1px;
+@darkbackgroundcolor: #262626;
+@borderrad: 10px;
 
 html, body {
 	margin: 0 auto;
 	width: 700px;
-	border: solid red 2px;
 	font-size: 62.5%;
+	background-color: #a3c9c7;
+	margin-top: 10px;
+	border-radius: 15px;
+}
+
+html {
+	background-color: @darkbackgroundcolor;
 }
 
 nav {
@@ -73,12 +81,13 @@ nav {
 	justify-content: space-between;
 	margin-top: 20px;
 	font-family: @mainfont;
-	padding: 10px 0;
-	border: solid blue 1px;
-	font-size: 2.75em;
+	padding: 20px;
+	font-size: 3em;
 
 	a {
 		text-decoration: none;
+		font-weight: bold;
+		color: white;
 	}
 }
 
@@ -86,31 +95,32 @@ header {
 	display: flex;
 	justify-content: space-between;
 	padding: 10px;
-	border: solid green 2px;
 	height: 350px;
 
 	.portrait {
-		border: @bordertest;
-		max-width: 100%;
+		width: 330px;
 		max-height: 100%;
+		border-radius: @borderrad;
 	}
 
 	.intro {
-		border: @bordertest;
-		width: 100%;
+		width: 330px;
 		font-size: 2.5rem;
 		font-family: @mainfont;
-		padding: 0 15px 15px 20px;
+		padding: 10px 15px 15px 15px;
+		background-color: @darkbackgroundcolor;
+		border-radius: @borderrad;
 
 		h1 {
-			color: red;
+			color: white;
 			margin-left: 0;
 		}
 
 		p {
 			margin-top: 10px;
-			font-size: 0.85em;
+			font-size: 0.80em;
 			line-height: 35px;
+			color: lightgrey;
 		}
 		
 	}
@@ -119,36 +129,41 @@ header {
 h1 {
 	font-size: 2.5rem;
 	font-family: @mainfont;
-	margin-left: 10px;
+	margin-top: 10px;
+	margin-left: 15px;
+	color: @darkbackgroundcolor;
+	font-weight: bold;
 }
 
 .workcontainer {
 	font-family: @mainfont;
 	display: flex;
 	flex-wrap: wrap;
-	border:  @bordertest;
 	font-size: 2rem;
 	margin: 10px;
 	justify-content: space-between;
-	height: 585px;
+	height: 600px;
 	align-items: center;
 
 	.workbox {
-		padding: 5px;
+		padding: 10px;
 		display: flex;
 		flex-direction: column;
 		width: 330px;
 		height: 275px;
-		border: @bordertest;
+		border: solid white 2px;
+		color: white;
+		background-color: @darkbackgroundcolor;
+		border-radius: @borderrad;
 
 		h2 {
 			font-weight: bold;
-			margin-bottom: 5px;
+			margin-bottom: 10px;
 		}
 
 		h3 {
 			font-size: 0.80em;
-			margin-bottom: 5px;
+			margin-bottom: 10px;
 			font-weight: bold;
 		}
 
@@ -163,10 +178,11 @@ h1 {
 	font-family: @mainfont;
 	display: flex;
 	height: 75px;
-	border: green solid 5px;
 	font-size: 1.45rem;
 	justify-content: space-between;
-	margin: 10px;
+	margin: 10px 10px 20px 10px;
+	background-color: white;
+	border-radius: @borderrad;
 
 	.skillsbox {
 		padding: 5px;
@@ -174,7 +190,6 @@ h1 {
 		justify-content: space-evenly;
 		flex-direction: column;
 		align-items: center;
-		border: @bordertest;
 		}
 
 		.fivestars {
@@ -187,6 +202,14 @@ h1 {
 	font-family: @mainfont;
 	margin-top: 5px;
 	font-size: 1.75rem;
+	background-color: white;
+	display: inline-block;
+	width: 300px;
+	border-radius: @borderrad;
+	margin-left: 10px;
+	margin-bottom: 25px;
+	margin-top: 10px;
+	padding: 10px;
 
 	p {
 		margin: 5px 0 0 15px;

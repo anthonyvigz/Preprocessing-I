@@ -140,8 +140,13 @@ html,
 body {
   margin: 0 auto;
   width: 700px;
-  border: solid red 2px;
   font-size: 62.5%;
+  background-color: #a3c9c7;
+  margin-top: 10px;
+  border-radius: 15px;
+}
+html {
+  background-color: #262626;
 }
 nav {
   margin: 0 auto;
@@ -149,72 +154,79 @@ nav {
   justify-content: space-between;
   margin-top: 20px;
   font-family: 'Source Sans Pro', sans-serif;
-  padding: 10px 0;
-  border: solid blue 1px;
-  font-size: 2.75em;
+  padding: 20px;
+  font-size: 3em;
 }
 nav a {
   text-decoration: none;
+  font-weight: bold;
+  color: white;
 }
 header {
   display: flex;
   justify-content: space-between;
   padding: 10px;
-  border: solid green 2px;
   height: 350px;
 }
 header .portrait {
-  border: solid red 1px;
-  max-width: 100%;
+  width: 330px;
   max-height: 100%;
+  border-radius: 10px;
 }
 header .intro {
-  border: solid red 1px;
-  width: 100%;
+  width: 330px;
   font-size: 2.5rem;
   font-family: 'Source Sans Pro', sans-serif;
-  padding: 0 15px 15px 20px;
+  padding: 10px 15px 15px 15px;
+  background-color: #262626;
+  border-radius: 10px;
 }
 header .intro h1 {
-  color: red;
+  color: white;
   margin-left: 0;
 }
 header .intro p {
   margin-top: 10px;
-  font-size: 0.85em;
+  font-size: 0.8em;
   line-height: 35px;
+  color: lightgrey;
 }
 h1 {
   font-size: 2.5rem;
   font-family: 'Source Sans Pro', sans-serif;
-  margin-left: 10px;
+  margin-top: 10px;
+  margin-left: 15px;
+  color: #262626;
+  font-weight: bold;
 }
 .workcontainer {
   font-family: 'Source Sans Pro', sans-serif;
   display: flex;
   flex-wrap: wrap;
-  border: solid red 1px;
   font-size: 2rem;
   margin: 10px;
   justify-content: space-between;
-  height: 585px;
+  height: 600px;
   align-items: center;
 }
 .workcontainer .workbox {
-  padding: 5px;
+  padding: 10px;
   display: flex;
   flex-direction: column;
   width: 330px;
   height: 275px;
-  border: solid red 1px;
+  border: solid white 2px;
+  color: white;
+  background-color: #262626;
+  border-radius: 10px;
 }
 .workcontainer .workbox h2 {
   font-weight: bold;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 .workcontainer .workbox h3 {
   font-size: 0.8em;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   font-weight: bold;
 }
 .workcontainer .workbox p {
@@ -225,10 +237,11 @@ h1 {
   font-family: 'Source Sans Pro', sans-serif;
   display: flex;
   height: 75px;
-  border: green solid 5px;
   font-size: 1.45rem;
   justify-content: space-between;
-  margin: 10px;
+  margin: 10px 10px 20px 10px;
+  background-color: white;
+  border-radius: 10px;
 }
 .skillscontainer .skillsbox {
   padding: 5px;
@@ -236,7 +249,6 @@ h1 {
   justify-content: space-evenly;
   flex-direction: column;
   align-items: center;
-  border: solid red 1px;
 }
 .skillscontainer .fivestars {
   max-width: 70%;
@@ -246,6 +258,14 @@ h1 {
   font-family: 'Source Sans Pro', sans-serif;
   margin-top: 5px;
   font-size: 1.75rem;
+  background-color: white;
+  display: inline-block;
+  width: 300px;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-bottom: 25px;
+  margin-top: 10px;
+  padding: 10px;
 }
 .contact p {
   margin: 5px 0 0 15px;
