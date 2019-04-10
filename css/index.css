@@ -145,6 +145,14 @@ body {
   margin-top: 10px;
   border-radius: 15px;
 }
+@media (max-width: 500px) {
+  html,
+  body {
+    background-color: red;
+    transition: 1s;
+    width: 90%;
+  }
+}
 html {
   background-color: #262626;
 }
@@ -156,6 +164,14 @@ nav {
   font-family: 'Source Sans Pro', sans-serif;
   padding: 20px;
   font-size: 3em;
+}
+@media (max-width: 500px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+    height: 150px;
+    transition: 1s;
+  }
 }
 nav a {
   text-decoration: none;
@@ -181,6 +197,11 @@ header .intro {
   background-color: #262626;
   border-radius: 10px;
 }
+@media (max-width: 500px) {
+  header .intro {
+    margin-top: 15px;
+  }
+}
 header .intro h1 {
   color: white;
   margin-left: 0;
@@ -191,6 +212,14 @@ header .intro p {
   line-height: 35px;
   color: lightgrey;
 }
+@media (max-width: 500px) {
+  header {
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100%;
+    transition: 1s;
+  }
+}
 h1 {
   font-size: 2.5rem;
   font-family: 'Source Sans Pro', sans-serif;
@@ -198,6 +227,12 @@ h1 {
   margin-left: 15px;
   color: #262626;
   font-weight: bold;
+}
+@media (max-width: 500px) {
+  h1 {
+    text-align: center;
+    margin: 0;
+  }
 }
 .workcontainer {
   font-family: 'Source Sans Pro', sans-serif;
@@ -220,6 +255,11 @@ h1 {
   background-color: #262626;
   border-radius: 10px;
 }
+@media (max-width: 500px) {
+  .workcontainer .workbox {
+    margin-bottom: 15px;
+  }
+}
 .workcontainer .workbox h2 {
   font-weight: bold;
   margin-bottom: 10px;
@@ -233,6 +273,13 @@ h1 {
   font-size: 0.75em;
   line-height: 25px;
 }
+@media (max-width: 500px) {
+  .workcontainer {
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100%;
+  }
+}
 .skillscontainer {
   font-family: 'Source Sans Pro', sans-serif;
   display: flex;
@@ -243,6 +290,13 @@ h1 {
   background-color: white;
   border-radius: 10px;
 }
+@media (max-width: 500px) {
+  .skillscontainer {
+    flex-direction: column;
+    height: 400px;
+    padding: 15px;
+  }
+}
 .skillscontainer .skillsbox {
   padding: 5px;
   display: flex;
@@ -250,7 +304,13 @@ h1 {
   flex-direction: column;
   align-items: center;
 }
-.skillscontainer .fivestars {
+@media (max-width: 500px) {
+  .skillscontainer .skillsbox {
+    width: 100%;
+    font-size: 2.25rem;
+  }
+}
+.skillscontainer .skillsbox .fivestars {
   max-width: 70%;
   max-height: 70%;
 }
@@ -266,6 +326,12 @@ h1 {
   margin-bottom: 25px;
   margin-top: 10px;
   padding: 10px;
+}
+@media (max-width: 500px) {
+  .contact {
+    text-align: center;
+    width: 95%;
+  }
 }
 .contact p {
   margin: 5px 0 0 15px;
